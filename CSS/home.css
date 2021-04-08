@@ -1,0 +1,84 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  width:100%;
+  height: 100%;
+  font-family: sans-serif;
+  background: url(../images/bg.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.logo{
+  width:100%;
+  cursor: pointer;
+  font-family: Algerian;
+}
+.block1,.block2,.block3,.block4,.block5{
+  font-size:40px;
+  background-color: transperent;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+
+  border-top: 10px solid aqua;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+@media screen and (max-width: 700px) {
+  .block1,.block2,.block3,.block4,.block5, .t1,.t2{
+    font-size: 25px;
+    font-weight: bold;
+    width: 80%;
+  }
+  .block1,.block2,.block3,.block4,.block5{
+    border-top: 10px solid aqua;
+    margin-top: 20%;
+  }
+}
+.info{
+  border-top: 10px solid aqua;
+  width: 60%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info a{
+  font-size: 20px;
+}
+.info iframe{
+  margin-top: 10%;
+  align-items: center;
+}
+@media screen and (max-width: 700px) {
+  .info{
+    border-top: 20px solid #6ae6d1;
+    position: relative;
+    margin-left: 2% auto;
+    width: 100%;
+    background-image: url(../images/bg.png);
+    background-position: center;
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .info a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+  }
+  iframe{
+    border: 3px solid rgba(#000, .2);
+    margin-top: 10%;
+    width: 80%;
+  }
+}
